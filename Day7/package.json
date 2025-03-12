@@ -1,0 +1,32 @@
+{
+  "name": "homework-07-magicmarie",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1ig7247_) [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18541268) ## CS472-Homework-07-Node-Modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx watch --env-file=.env ./exercise3/exercise4.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/homework-07-magicmarie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/homework-07-magicmarie/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/homework-07-magicmarie#readme",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.758.0",
+    "@types/node": "^22.13.9",
+    "@types/node-cron": "^3.0.11",
+    "@types/nodemailer": "^6.4.17",
+    "dotenv": "^16.4.7",
+    "nanoid": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "sharp": "^0.33.5"
+  }
+}
