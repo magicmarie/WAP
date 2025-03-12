@@ -1,0 +1,90 @@
+// ADDITION
+### Test GET /addition/2/3
+GET http://localhost:3000/addition/2/3
+
+### Test GET /addition
+GET http://localhost:3000/addition?a=1&b=2
+
+### Test POST /addition
+POST http://localhost:3000/addition
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+
+// SUBTRACTION
+### Test GET /subtraction/2/3
+GET http://localhost:3000/subtraction/2/3
+
+### Test GET /subtraction
+GET http://localhost:3000/subtraction?a=1&b=2
+
+### Test POST /subtraction
+POST http://localhost:3000/subtraction
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+// MULTIPLICATION
+### Test GET /multiplication/2/3
+GET http://localhost:3000/multiplication/2/3
+
+### Test GET /multiplication
+GET http://localhost:3000/multiplication?a=1&b=2
+
+### Test POST /multiplication
+POST http://localhost:3000/multiplication
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+// DIVISION
+### Test GET /division/2/3
+GET http://localhost:3000/division/2/3
+
+### Test GET /division
+GET http://localhost:3000/division?a=1&b=2
+
+### Test POST /division
+POST http://localhost:3000/division
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+// MODULUS
+### Test GET /modulus/2/3
+GET http://localhost:3000/modulus/2/3
+
+### Test GET /modulus
+GET http://localhost:3000/modulus?a=1&b=2
+
+### Test POST /modulus
+POST http://localhost:3000/modulus
+Content-Type: application/json
+
+{
+  "a": 5,
+  "b": 3
+}
+
+// TEST ERROR
+### Test GET /addition/2
+GET http://localhost:3000/addition/2
+
+### Test GET /addition/2/3/4
+GET http://localhost:3000/addition/2/3/4
+
+### Test GET /addition/W/E
+GET http://localhost:3000/addition/W/E

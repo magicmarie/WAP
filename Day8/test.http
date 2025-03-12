@@ -1,0 +1,16 @@
+### Test GET numbers array
+GET http://localhost:3000/numbers
+
+### Test POST
+POST http://localhost:3000/numbers/8
+
+### Test DELETE by index
+DELETE http://localhost:3000/numbers/9
+
+
+### Test GET number by index
+GET http://localhost:3000/numbers/9
+
+### Test PUT number by index
+PUT http://localhost:3000/numbers/0/4
+
