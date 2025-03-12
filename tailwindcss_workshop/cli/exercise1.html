@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CS472-Homework-02-CSS</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-4">
+      <!-- Flexbox Centering -->
+      <div class="w-full h-[500px] border-2 border-black flex justify-center items-center">
+          <div class="w-[200px] h-[200px] border-2 border-red-500"></div>
+      </div>
+
+      <!-- CSS Grid Centering -->
+      <div class="w-full h-[500px] border-2 border-black grid place-items-center">
+          <div class="w-[200px] h-[200px] border-2 border-red-500"></div>
+      </div>
+
+      <!-- Absolute Positioning Centering -->
+      <div class="w-full h-[500px] border-2 border-black relative">
+          <div class="w-[200px] h-[200px] border-2 border-red-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+      </div>
+  </body>
+</html>
